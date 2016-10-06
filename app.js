@@ -34,11 +34,13 @@ angular.module('ShoppingListCheckOff', [])
 	  var service = this;
 
 	  var buy = [
-			  {name: "Lettuce", quantity:"1"},
-	             {name: "Avocado", quantity:"2"},
-	             {name: "Tomatos", quantity:"5"},
-	             {name: "Rice Milk", quantity:"3 ltr"},
-	             {name: "Cookies", quantity:"1 pkt"}];
+				{name: "Lettuce", quantity:"1"},
+				{name: "Avocado", quantity:"2"},
+				{name: "Tomatos", quantity:"5"},
+				{name: "Rice Milk", quantity:"3 ltr"},
+				{name: "Cookies", quantity:"1 pkt"}
+				];
+				
 	  var bought = [];
 
 	  service.itemsToBuy = function(){
